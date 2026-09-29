@@ -1,0 +1,701 @@
+{
+  "packages": [
+    {
+      "name": "assets_audio_player",
+      "version": "3.1.1",
+      "metadataUrl": "https://pub.dev/api/packages/assets_audio_player/versions/3.1.1",
+      "archiveUrl": "https://pub.dev/api/archives/assets_audio_player-3.1.1.tar.gz",
+      "archiveSha256": "9a87062cf39be0730ba8bb31ed4d148ca4e892e0ae607113f346d3c9a8da5df0",
+      "bytes": 58804469
+    },
+    {
+      "name": "assets_audio_player_web",
+      "version": "3.1.1",
+      "metadataUrl": "https://pub.dev/api/packages/assets_audio_player_web/versions/3.1.1",
+      "archiveUrl": "https://pub.dev/api/archives/assets_audio_player_web-3.1.1.tar.gz",
+      "archiveSha256": "24cf82e72c7e7f9292d67e1b52d7945a182d9695ce8f903f60e5c6b379cbcaac",
+      "bytes": 20223
+    }
+  ],
+  "packageFiles": [
+    {
+      "file": "packages/assets_audio_player/analysis_options.yaml",
+      "upstreamSha256": "685a358bbebf32a4b1351a6aa72ee7e7f1613e4d810fa5fd4c2b5ade4ea2d2b0",
+      "validatedSha256": "685a358bbebf32a4b1351a6aa72ee7e7f1613e4d810fa5fd4c2b5ade4ea2d2b0",
+      "preparedSha256": "685a358bbebf32a4b1351a6aa72ee7e7f1613e4d810fa5fd4c2b5ade4ea2d2b0",
+      "modificationNoticeAdded": false
+    },
+    {
+      "file": "packages/assets_audio_player/android/build.gradle",
+      "upstreamSha256": "b24a761bb910d970d245c99c06404831c7404ecabfc5881ed5b3e6a61e8cfab4",
+      "validatedSha256": "b24a761bb910d970d245c99c06404831c7404ecabfc5881ed5b3e6a61e8cfab4",
+      "preparedSha256": "b24a761bb910d970d245c99c06404831c7404ecabfc5881ed5b3e6a61e8cfab4",
+      "modificationNoticeAdded": false
+    },
+    {
+      "file": "packages/assets_audio_player/android/gradle/wrapper/gradle-wrapper.properties",
+      "upstreamSha256": "c10bd82aeb36d98bbf4bbc58cbbe2a7c1cf778def7c5d35e0ac9c542029698a9",
+      "validatedSha256": "c10bd82aeb36d98bbf4bbc58cbbe2a7c1cf778def7c5d35e0ac9c542029698a9",
+      "preparedSha256": "c10bd82aeb36d98bbf4bbc58cbbe2a7c1cf778def7c5d35e0ac9c542029698a9",
+      "modificationNoticeAdded": false
+    },
+    {
+      "file": "packages/assets_audio_player/android/gradle.properties",
+      "upstreamSha256": "284d2e2db67de29a1fb4a05228dbdaa797a46c1c8caca5d7d43955f803ea644c",
+      "validatedSha256": "284d2e2db67de29a1fb4a05228dbdaa797a46c1c8caca5d7d43955f803ea644c",
+      "preparedSha256": "284d2e2db67de29a1fb4a05228dbdaa797a46c1c8caca5d7d43955f803ea644c",
+      "modificationNoticeAdded": false
+    },
+    {
+      "file": "packages/assets_audio_player/android/settings.gradle",
+      "upstreamSha256": "b99c9b60c66bab74d67fa396c7f409138aff9bf5a875a6ac8e195608cb9ae13e",
+      "validatedSha256": "b99c9b60c66bab74d67fa396c7f409138aff9bf5a875a6ac8e195608cb9ae13e",
+      "preparedSha256": "b99c9b60c66bab74d67fa396c7f409138aff9bf5a875a6ac8e195608cb9ae13e",
+      "modificationNoticeAdded": false
+    },
+    {
+      "file": "packages/assets_audio_player/android/src/main/AndroidManifest.xml",
+      "upstreamSha256": "0c543b17dd6a91872cd9457155476886cb0db84a955113affdd5545310d8e2f6",
+      "validatedSha256": "0c543b17dd6a91872cd9457155476886cb0db84a955113affdd5545310d8e2f6",
+      "preparedSha256": "0c543b17dd6a91872cd9457155476886cb0db84a955113affdd5545310d8e2f6",
+      "modificationNoticeAdded": false
+    },
+    {
+      "file": "packages/assets_audio_player/android/src/main/kotlin/com/github/florent37/assets_audio_player/AssetsAudioPlayerPlugin.kt",
+      "upstreamSha256": "a3282f12cce2124aa2454603aa23c0616b56882f2cfb404297adaa052f9e5d93",
+      "validatedSha256": "a3282f12cce2124aa2454603aa23c0616b56882f2cfb404297adaa052f9e5d93",
+      "preparedSha256": "a3282f12cce2124aa2454603aa23c0616b56882f2cfb404297adaa052f9e5d93",
+      "modificationNoticeAdded": false
+    },
+    {
+      "file": "packages/assets_audio_player/android/src/main/kotlin/com/github/florent37/assets_audio_player/Errors.kt",
+      "upstreamSha256": "650cb67bd0054d4d6a98c87954baf92642f134fe39da607181afdee1d0139b06",
+      "validatedSha256": "650cb67bd0054d4d6a98c87954baf92642f134fe39da607181afdee1d0139b06",
+      "preparedSha256": "650cb67bd0054d4d6a98c87954baf92642f134fe39da607181afdee1d0139b06",
+      "modificationNoticeAdded": false
+    },
+    {
+      "file": "packages/assets_audio_player/android/src/main/kotlin/com/github/florent37/assets_audio_player/headset/HeadsetStrategy.kt",
+      "upstreamSha256": "1d47e91faa457e367891d2c88c33a5c708b82d3ae54fed005ee6d6f472499571",
+      "validatedSha256": "1d47e91faa457e367891d2c88c33a5c708b82d3ae54fed005ee6d6f472499571",
+      "preparedSha256": "1d47e91faa457e367891d2c88c33a5c708b82d3ae54fed005ee6d6f472499571",
+      "modificationNoticeAdded": false
+    },
+    {
+      "file": "packages/assets_audio_player/android/src/main/kotlin/com/github/florent37/assets_audio_player/notification/AudioMetas.kt",
+      "upstreamSha256": "2f205a42471851767360693f981d8942e6ea9d3f8b2edf46664354f68f79e4ae",
+      "validatedSha256": "2f205a42471851767360693f981d8942e6ea9d3f8b2edf46664354f68f79e4ae",
+      "preparedSha256": "2f205a42471851767360693f981d8942e6ea9d3f8b2edf46664354f68f79e4ae",
+      "modificationNoticeAdded": false
+    },
+    {
+      "file": "packages/assets_audio_player/android/src/main/kotlin/com/github/florent37/assets_audio_player/notification/CustomMediaButtonReceiver.kt",
+      "upstreamSha256": "fedb53cad828567cf8a40b40bae5e2288c032efcbf58f30f31ded930723ad5d2",
+      "validatedSha256": "fedb53cad828567cf8a40b40bae5e2288c032efcbf58f30f31ded930723ad5d2",
+      "preparedSha256": "fedb53cad828567cf8a40b40bae5e2288c032efcbf58f30f31ded930723ad5d2",
+      "modificationNoticeAdded": false
+    },
+    {
+      "file": "packages/assets_audio_player/android/src/main/kotlin/com/github/florent37/assets_audio_player/notification/ImageDownloader.kt",
+      "upstreamSha256": "6bd63cf9d6e0aef0f526ee372ba4ccef5ea8a2ebef20199905e6c8614c36d304",
+      "validatedSha256": "6bd63cf9d6e0aef0f526ee372ba4ccef5ea8a2ebef20199905e6c8614c36d304",
+      "preparedSha256": "6bd63cf9d6e0aef0f526ee372ba4ccef5ea8a2ebef20199905e6c8614c36d304",
+      "modificationNoticeAdded": false
+    },
+    {
+      "file": "packages/assets_audio_player/android/src/main/kotlin/com/github/florent37/assets_audio_player/notification/MediaButtonsReceiver.kt",
+      "upstreamSha256": "17d8f0ae1a05662f95e92e5a2b9c7727252ab782081c621b4c2b71699d93be40",
+      "validatedSha256": "17d8f0ae1a05662f95e92e5a2b9c7727252ab782081c621b4c2b71699d93be40",
+      "preparedSha256": "17d8f0ae1a05662f95e92e5a2b9c7727252ab782081c621b4c2b71699d93be40",
+      "modificationNoticeAdded": false
+    },
+    {
+      "file": "packages/assets_audio_player/android/src/main/kotlin/com/github/florent37/assets_audio_player/notification/NotificationAction.kt",
+      "upstreamSha256": "2bcf6e504aa7166777ba37fbd02f52b5ca0fa0fa07a83704e8cfdb007dae78e0",
+      "validatedSha256": "2bcf6e504aa7166777ba37fbd02f52b5ca0fa0fa07a83704e8cfdb007dae78e0",
+      "preparedSha256": "2bcf6e504aa7166777ba37fbd02f52b5ca0fa0fa07a83704e8cfdb007dae78e0",
+      "modificationNoticeAdded": false
+    },
+    {
+      "file": "packages/assets_audio_player/android/src/main/kotlin/com/github/florent37/assets_audio_player/notification/NotificationActionReceiver.kt",
+      "upstreamSha256": "92a4ccf5af2d111e324d846c482177c426b3e59611d947e0108f8daa29521e7c",
+      "validatedSha256": "92a4ccf5af2d111e324d846c482177c426b3e59611d947e0108f8daa29521e7c",
+      "preparedSha256": "92a4ccf5af2d111e324d846c482177c426b3e59611d947e0108f8daa29521e7c",
+      "modificationNoticeAdded": false
+    },
+    {
+      "file": "packages/assets_audio_player/android/src/main/kotlin/com/github/florent37/assets_audio_player/notification/NotificationManager.kt",
+      "upstreamSha256": "424d75e36e7249328ecac47dc271a3ebe8f53deb7065e56d308f119b3e1a3363",
+      "validatedSha256": "424d75e36e7249328ecac47dc271a3ebe8f53deb7065e56d308f119b3e1a3363",
+      "preparedSha256": "424d75e36e7249328ecac47dc271a3ebe8f53deb7065e56d308f119b3e1a3363",
+      "modificationNoticeAdded": false
+    },
+    {
+      "file": "packages/assets_audio_player/android/src/main/kotlin/com/github/florent37/assets_audio_player/notification/NotificationService.kt",
+      "upstreamSha256": "1df549ecee47cce51b4a9376a83ea0f803b59b52703139aab1f61f4eedc8a57d",
+      "validatedSha256": "27201fe0853ff81ca2eefc2225b32fb65b880c9854b3bcb666534879070fde73",
+      "preparedSha256": "4208cfe9b301db133cfb5eaacdcfdbb1a48b8dd030621e1f387774da5c42351f",
+      "modificationNoticeAdded": true
+    },
+    {
+      "file": "packages/assets_audio_player/android/src/main/kotlin/com/github/florent37/assets_audio_player/notification/NotificationSettings.kt",
+      "upstreamSha256": "080208f2c172e2c98b431d86f80bfe325d3e04248fac5403e7202934f6ba8994",
+      "validatedSha256": "080208f2c172e2c98b431d86f80bfe325d3e04248fac5403e7202934f6ba8994",
+      "preparedSha256": "080208f2c172e2c98b431d86f80bfe325d3e04248fac5403e7202934f6ba8994",
+      "modificationNoticeAdded": false
+    },
+    {
+      "file": "packages/assets_audio_player/android/src/main/kotlin/com/github/florent37/assets_audio_player/Player.kt",
+      "upstreamSha256": "93b5e65aa9fd5180a0b71ab397ad95f7cf3313a76b7983512bd4d7295dd515bf",
+      "validatedSha256": "93b5e65aa9fd5180a0b71ab397ad95f7cf3313a76b7983512bd4d7295dd515bf",
+      "preparedSha256": "93b5e65aa9fd5180a0b71ab397ad95f7cf3313a76b7983512bd4d7295dd515bf",
+      "modificationNoticeAdded": false
+    },
+    {
+      "file": "packages/assets_audio_player/android/src/main/kotlin/com/github/florent37/assets_audio_player/playerimplem/PlayerFinder.kt",
+      "upstreamSha256": "f6ae160dde2ac0839c05727ab6bdf9954d26c30390afd48a0746d1b756714ffb",
+      "validatedSha256": "f6ae160dde2ac0839c05727ab6bdf9954d26c30390afd48a0746d1b756714ffb",
+      "preparedSha256": "f6ae160dde2ac0839c05727ab6bdf9954d26c30390afd48a0746d1b756714ffb",
+      "modificationNoticeAdded": false
+    },
+    {
+      "file": "packages/assets_audio_player/android/src/main/kotlin/com/github/florent37/assets_audio_player/playerimplem/PlayerImplem.kt",
+      "upstreamSha256": "94cbefdffa7a5ccc4e77ff01298b97c3b5f1ff6a24e4989b9ef3762bc2f4922d",
+      "validatedSha256": "94cbefdffa7a5ccc4e77ff01298b97c3b5f1ff6a24e4989b9ef3762bc2f4922d",
+      "preparedSha256": "94cbefdffa7a5ccc4e77ff01298b97c3b5f1ff6a24e4989b9ef3762bc2f4922d",
+      "modificationNoticeAdded": false
+    },
+    {
+      "file": "packages/assets_audio_player/android/src/main/kotlin/com/github/florent37/assets_audio_player/playerimplem/PlayerImplemExoPlayer.kt",
+      "upstreamSha256": "ea92edabe27c7c59c0545c646365044564611dbb92ebeaa4b5ca9104154e9372",
+      "validatedSha256": "ea92edabe27c7c59c0545c646365044564611dbb92ebeaa4b5ca9104154e9372",
+      "preparedSha256": "ea92edabe27c7c59c0545c646365044564611dbb92ebeaa4b5ca9104154e9372",
+      "modificationNoticeAdded": false
+    },
+    {
+      "file": "packages/assets_audio_player/android/src/main/kotlin/com/github/florent37/assets_audio_player/playerimplem/PlayerImplemMediaPlayer.kt",
+      "upstreamSha256": "1b73f8b8491e54970f82f57352a0d301a6ba7a35652783f9973b9c6084342813",
+      "validatedSha256": "1b73f8b8491e54970f82f57352a0d301a6ba7a35652783f9973b9c6084342813",
+      "preparedSha256": "1b73f8b8491e54970f82f57352a0d301a6ba7a35652783f9973b9c6084342813",
+      "modificationNoticeAdded": false
+    },
+    {
+      "file": "packages/assets_audio_player/android/src/main/kotlin/com/github/florent37/assets_audio_player/Resolver.kt",
+      "upstreamSha256": "e5302f4ca36d6a672219f1fdf6921541b8a3f6e5fccb9dede15396d5136f54e7",
+      "validatedSha256": "e5302f4ca36d6a672219f1fdf6921541b8a3f6e5fccb9dede15396d5136f54e7",
+      "preparedSha256": "e5302f4ca36d6a672219f1fdf6921541b8a3f6e5fccb9dede15396d5136f54e7",
+      "modificationNoticeAdded": false
+    },
+    {
+      "file": "packages/assets_audio_player/android/src/main/kotlin/com/github/florent37/assets_audio_player/stopwhencall/AudioFocusStrategy.kt",
+      "upstreamSha256": "cfff352ca7e7c8250cc9e599d9bab75802757fb542945329e90b22a6bd3da397",
+      "validatedSha256": "cfff352ca7e7c8250cc9e599d9bab75802757fb542945329e90b22a6bd3da397",
+      "preparedSha256": "cfff352ca7e7c8250cc9e599d9bab75802757fb542945329e90b22a6bd3da397",
+      "modificationNoticeAdded": false
+    },
+    {
+      "file": "packages/assets_audio_player/android/src/main/kotlin/com/github/florent37/assets_audio_player/stopwhencall/HeadsetManager.kt",
+      "upstreamSha256": "1bf09011b1d95a32fb32060d4aca579ddc5c0b5b68ad18d588e554e1e52e5a70",
+      "validatedSha256": "720b7e96a06c4b6b75e60dbdea0298232d538b53d0213685433d90c00350b072",
+      "preparedSha256": "b84779a8265a0a739bd47bb4b3cfe5445d2878fcb804e234c9118c6e01990d88",
+      "modificationNoticeAdded": true
+    },
+    {
+      "file": "packages/assets_audio_player/android/src/main/kotlin/com/github/florent37/assets_audio_player/stopwhencall/StopWhenCall.kt",
+      "upstreamSha256": "5272050128af8a95c29c3f1b188eefa3d1fc835c9106261085f6a66aca5e4941",
+      "validatedSha256": "5272050128af8a95c29c3f1b188eefa3d1fc835c9106261085f6a66aca5e4941",
+      "preparedSha256": "5272050128af8a95c29c3f1b188eefa3d1fc835c9106261085f6a66aca5e4941",
+      "modificationNoticeAdded": false
+    },
+    {
+      "file": "packages/assets_audio_player/android/src/main/kotlin/com/github/florent37/assets_audio_player/stopwhencall/StopWhenCallAudioFocus.kt",
+      "upstreamSha256": "db543316da236b31b6bbb1ec715e908d57182ceee7f3bf2f46498d05a8560750",
+      "validatedSha256": "db543316da236b31b6bbb1ec715e908d57182ceee7f3bf2f46498d05a8560750",
+      "preparedSha256": "db543316da236b31b6bbb1ec715e908d57182ceee7f3bf2f46498d05a8560750",
+      "modificationNoticeAdded": false
+    },
+    {
+      "file": "packages/assets_audio_player/CHANGELOG.md",
+      "upstreamSha256": "693fa20002adcb5d04e7ade154be1a003f40fafd21c6424c7e82f230a8a855bf",
+      "validatedSha256": "693fa20002adcb5d04e7ade154be1a003f40fafd21c6424c7e82f230a8a855bf",
+      "preparedSha256": "693fa20002adcb5d04e7ade154be1a003f40fafd21c6424c7e82f230a8a855bf",
+      "modificationNoticeAdded": false
+    },
+    {
+      "file": "packages/assets_audio_player/darwin/Classes/Music.swift",
+      "upstreamSha256": "ab496c8b96a8778a987ef6737499f4a88db192eeac2b2ff6f9cc0da0e41e083a",
+      "validatedSha256": "ab496c8b96a8778a987ef6737499f4a88db192eeac2b2ff6f9cc0da0e41e083a",
+      "preparedSha256": "ab496c8b96a8778a987ef6737499f4a88db192eeac2b2ff6f9cc0da0e41e083a",
+      "modificationNoticeAdded": false
+    },
+    {
+      "file": "packages/assets_audio_player/deployWeb.sh",
+      "upstreamSha256": "870dacbe65731f549534bd046c10b7a56c947583044e1fb52c179c95aa79cc88",
+      "validatedSha256": "870dacbe65731f549534bd046c10b7a56c947583044e1fb52c179c95aa79cc88",
+      "preparedSha256": "870dacbe65731f549534bd046c10b7a56c947583044e1fb52c179c95aa79cc88",
+      "modificationNoticeAdded": false
+    },
+    {
+      "file": "packages/assets_audio_player/fix_lint.sh",
+      "upstreamSha256": "ee49bb9dd314ea3afa525efa6cf96d314ab367f5316a0e2a53d3b6be37cba9a1",
+      "validatedSha256": "ee49bb9dd314ea3afa525efa6cf96d314ab367f5316a0e2a53d3b6be37cba9a1",
+      "preparedSha256": "ee49bb9dd314ea3afa525efa6cf96d314ab367f5316a0e2a53d3b6be37cba9a1",
+      "modificationNoticeAdded": false
+    },
+    {
+      "file": "packages/assets_audio_player/format.sh",
+      "upstreamSha256": "015f3062f3d261274a2ea5d82e7cf4a37fbeebb5706fc11fa55ccef19d10f75c",
+      "validatedSha256": "015f3062f3d261274a2ea5d82e7cf4a37fbeebb5706fc11fa55ccef19d10f75c",
+      "preparedSha256": "015f3062f3d261274a2ea5d82e7cf4a37fbeebb5706fc11fa55ccef19d10f75c",
+      "modificationNoticeAdded": false
+    },
+    {
+      "file": "packages/assets_audio_player/ios/assets_audio_player.podspec",
+      "upstreamSha256": "c0304363106c8bc9820bca6fdc4787e2efe9e4eedd3bb0800fe2ae5a11d293c0",
+      "validatedSha256": "c0304363106c8bc9820bca6fdc4787e2efe9e4eedd3bb0800fe2ae5a11d293c0",
+      "preparedSha256": "c0304363106c8bc9820bca6fdc4787e2efe9e4eedd3bb0800fe2ae5a11d293c0",
+      "modificationNoticeAdded": false
+    },
+    {
+      "file": "packages/assets_audio_player/ios/Classes/AssetsAudioPlayerPlugin.h",
+      "upstreamSha256": "aca88f11aca153a728b56c9d04ae580af20c89b747f874d368d640f7cd09f1c3",
+      "validatedSha256": "aca88f11aca153a728b56c9d04ae580af20c89b747f874d368d640f7cd09f1c3",
+      "preparedSha256": "aca88f11aca153a728b56c9d04ae580af20c89b747f874d368d640f7cd09f1c3",
+      "modificationNoticeAdded": false
+    },
+    {
+      "file": "packages/assets_audio_player/ios/Classes/AssetsAudioPlayerPlugin.m",
+      "upstreamSha256": "62085e00d3753dda91c5bf089cb8d6aea1a1a6ce96027a958c3a52dcacf3974f",
+      "validatedSha256": "62085e00d3753dda91c5bf089cb8d6aea1a1a6ce96027a958c3a52dcacf3974f",
+      "preparedSha256": "62085e00d3753dda91c5bf089cb8d6aea1a1a6ce96027a958c3a52dcacf3974f",
+      "modificationNoticeAdded": false
+    },
+    {
+      "file": "packages/assets_audio_player/ios/Classes/Music.swift",
+      "upstreamSha256": "ab496c8b96a8778a987ef6737499f4a88db192eeac2b2ff6f9cc0da0e41e083a",
+      "validatedSha256": "ab496c8b96a8778a987ef6737499f4a88db192eeac2b2ff6f9cc0da0e41e083a",
+      "preparedSha256": "ab496c8b96a8778a987ef6737499f4a88db192eeac2b2ff6f9cc0da0e41e083a",
+      "modificationNoticeAdded": false
+    },
+    {
+      "file": "packages/assets_audio_player/ios/Classes/SwiftAssetsAudioPlayerPlugin.swift",
+      "upstreamSha256": "977633883234e7c87c451e680702c842a4ebaa1d2fa7ec15c5e6acf2ac095d71",
+      "validatedSha256": "977633883234e7c87c451e680702c842a4ebaa1d2fa7ec15c5e6acf2ac095d71",
+      "preparedSha256": "977633883234e7c87c451e680702c842a4ebaa1d2fa7ec15c5e6acf2ac095d71",
+      "modificationNoticeAdded": false
+    },
+    {
+      "file": "packages/assets_audio_player/lib/assets_audio_player.dart",
+      "upstreamSha256": "a1972225c5534d33c0ecf1afa437dbead5c87b59df2f2ab5d19b20707e12966d",
+      "validatedSha256": "a1972225c5534d33c0ecf1afa437dbead5c87b59df2f2ab5d19b20707e12966d",
+      "preparedSha256": "a1972225c5534d33c0ecf1afa437dbead5c87b59df2f2ab5d19b20707e12966d",
+      "modificationNoticeAdded": false
+    },
+    {
+      "file": "packages/assets_audio_player/lib/generated/i18n.dart",
+      "upstreamSha256": "3560b38836a965c16965da50683951ce88b6127eefe11d5841bbca3439da7e67",
+      "validatedSha256": "3560b38836a965c16965da50683951ce88b6127eefe11d5841bbca3439da7e67",
+      "preparedSha256": "3560b38836a965c16965da50683951ce88b6127eefe11d5841bbca3439da7e67",
+      "modificationNoticeAdded": false
+    },
+    {
+      "file": "packages/assets_audio_player/lib/src/applifecycle.dart",
+      "upstreamSha256": "8f2467544e1a530488c0420b7f6cc9c7027d1c4c50c7537cb764c7b22bbdc707",
+      "validatedSha256": "8f2467544e1a530488c0420b7f6cc9c7027d1c4c50c7537cb764c7b22bbdc707",
+      "preparedSha256": "8f2467544e1a530488c0420b7f6cc9c7027d1c4c50c7537cb764c7b22bbdc707",
+      "modificationNoticeAdded": false
+    },
+    {
+      "file": "packages/assets_audio_player/lib/src/assets_audio_player.dart",
+      "upstreamSha256": "8ce2ae87b41250e9a9295c20e19f8a099f9f4be94e8f505aeb2730f1cc1f27af",
+      "validatedSha256": "8ce2ae87b41250e9a9295c20e19f8a099f9f4be94e8f505aeb2730f1cc1f27af",
+      "preparedSha256": "8ce2ae87b41250e9a9295c20e19f8a099f9f4be94e8f505aeb2730f1cc1f27af",
+      "modificationNoticeAdded": false
+    },
+    {
+      "file": "packages/assets_audio_player/lib/src/builders/player_builders.dart",
+      "upstreamSha256": "65144d7012cff06405d0a8febc8516d0beb2c262c451dc30f106e2f9367696bd",
+      "validatedSha256": "65144d7012cff06405d0a8febc8516d0beb2c262c451dc30f106e2f9367696bd",
+      "preparedSha256": "65144d7012cff06405d0a8febc8516d0beb2c262c451dc30f106e2f9367696bd",
+      "modificationNoticeAdded": false
+    },
+    {
+      "file": "packages/assets_audio_player/lib/src/builders/player_builders_ext.dart",
+      "upstreamSha256": "b4140ba47a2e75f46fed78c6cc1df5c9a92e84f1fcec23ff3286e87ceac199d0",
+      "validatedSha256": "b4140ba47a2e75f46fed78c6cc1df5c9a92e84f1fcec23ff3286e87ceac199d0",
+      "preparedSha256": "b4140ba47a2e75f46fed78c6cc1df5c9a92e84f1fcec23ff3286e87ceac199d0",
+      "modificationNoticeAdded": false
+    },
+    {
+      "file": "packages/assets_audio_player/lib/src/cache/cache.dart",
+      "upstreamSha256": "519dd0b3d3dc53e18edd955a03ae92ca5f759c19dfccc910734614227e375680",
+      "validatedSha256": "519dd0b3d3dc53e18edd955a03ae92ca5f759c19dfccc910734614227e375680",
+      "preparedSha256": "519dd0b3d3dc53e18edd955a03ae92ca5f759c19dfccc910734614227e375680",
+      "modificationNoticeAdded": false
+    },
+    {
+      "file": "packages/assets_audio_player/lib/src/cache/cache_downloader.dart",
+      "upstreamSha256": "ab0568f6ceafdcb9015aa05108038fa250b8b4812244d19eafa64e7cb674b68e",
+      "validatedSha256": "ab0568f6ceafdcb9015aa05108038fa250b8b4812244d19eafa64e7cb674b68e",
+      "preparedSha256": "ab0568f6ceafdcb9015aa05108038fa250b8b4812244d19eafa64e7cb674b68e",
+      "modificationNoticeAdded": false
+    },
+    {
+      "file": "packages/assets_audio_player/lib/src/cache/cache_manager.dart",
+      "upstreamSha256": "a5197ba779026b146ca66ce02198dbeae5a46016f1bc5ce8a6cf06beee003aee",
+      "validatedSha256": "a5197ba779026b146ca66ce02198dbeae5a46016f1bc5ce8a6cf06beee003aee",
+      "preparedSha256": "a5197ba779026b146ca66ce02198dbeae5a46016f1bc5ce8a6cf06beee003aee",
+      "modificationNoticeAdded": false
+    },
+    {
+      "file": "packages/assets_audio_player/lib/src/errors.dart",
+      "upstreamSha256": "9d451d35d7d13c4c3da95ad2ddc1fe880a8ef0eb53b9626308ecd3ccb7d51f19",
+      "validatedSha256": "9d451d35d7d13c4c3da95ad2ddc1fe880a8ef0eb53b9626308ecd3ccb7d51f19",
+      "preparedSha256": "9d451d35d7d13c4c3da95ad2ddc1fe880a8ef0eb53b9626308ecd3ccb7d51f19",
+      "modificationNoticeAdded": false
+    },
+    {
+      "file": "packages/assets_audio_player/lib/src/loop.dart",
+      "upstreamSha256": "289c0ec3f26da620dceb4423a90adc9453505b4291478049dc4e94ff39ef8c87",
+      "validatedSha256": "289c0ec3f26da620dceb4423a90adc9453505b4291478049dc4e94ff39ef8c87",
+      "preparedSha256": "289c0ec3f26da620dceb4423a90adc9453505b4291478049dc4e94ff39ef8c87",
+      "modificationNoticeAdded": false
+    },
+    {
+      "file": "packages/assets_audio_player/lib/src/network_settings.dart",
+      "upstreamSha256": "a5a613a206c1f19ba0093c26155a7baa5b35754be1a050ae2410ff3c17ca5d01",
+      "validatedSha256": "a5a613a206c1f19ba0093c26155a7baa5b35754be1a050ae2410ff3c17ca5d01",
+      "preparedSha256": "a5a613a206c1f19ba0093c26155a7baa5b35754be1a050ae2410ff3c17ca5d01",
+      "modificationNoticeAdded": false
+    },
+    {
+      "file": "packages/assets_audio_player/lib/src/notification.dart",
+      "upstreamSha256": "5f502c196bd22ec5d8fa4101ce4eda8e6399623742762f45e28b29135dbe4569",
+      "validatedSha256": "5f502c196bd22ec5d8fa4101ce4eda8e6399623742762f45e28b29135dbe4569",
+      "preparedSha256": "5f502c196bd22ec5d8fa4101ce4eda8e6399623742762f45e28b29135dbe4569",
+      "modificationNoticeAdded": false
+    },
+    {
+      "file": "packages/assets_audio_player/lib/src/PhoneStrategy.dart",
+      "upstreamSha256": "4849752c8e48839f97cd272a2e83d2c5301d48058391e1bc19df46e9a6d0ffec",
+      "validatedSha256": "4849752c8e48839f97cd272a2e83d2c5301d48058391e1bc19df46e9a6d0ffec",
+      "preparedSha256": "4849752c8e48839f97cd272a2e83d2c5301d48058391e1bc19df46e9a6d0ffec",
+      "modificationNoticeAdded": false
+    },
+    {
+      "file": "packages/assets_audio_player/lib/src/playable.dart",
+      "upstreamSha256": "283bac9c215a43be90a926a1f2d1c7917f760512dd7c414947ccdab0509cc992",
+      "validatedSha256": "283bac9c215a43be90a926a1f2d1c7917f760512dd7c414947ccdab0509cc992",
+      "preparedSha256": "283bac9c215a43be90a926a1f2d1c7917f760512dd7c414947ccdab0509cc992",
+      "modificationNoticeAdded": false
+    },
+    {
+      "file": "packages/assets_audio_player/lib/src/player_group.dart",
+      "upstreamSha256": "4cdb5ead0dc5cf2648fe9f39dfec1e44d990a8fe785cb600248f8be1a037c784",
+      "validatedSha256": "4cdb5ead0dc5cf2648fe9f39dfec1e44d990a8fe785cb600248f8be1a037c784",
+      "preparedSha256": "4cdb5ead0dc5cf2648fe9f39dfec1e44d990a8fe785cb600248f8be1a037c784",
+      "modificationNoticeAdded": false
+    },
+    {
+      "file": "packages/assets_audio_player/lib/src/playing.dart",
+      "upstreamSha256": "bca79dd28dc929167287bf67b58d5f85d543296eb83771dd575dc370c9474a8e",
+      "validatedSha256": "bca79dd28dc929167287bf67b58d5f85d543296eb83771dd575dc370c9474a8e",
+      "preparedSha256": "bca79dd28dc929167287bf67b58d5f85d543296eb83771dd575dc370c9474a8e",
+      "modificationNoticeAdded": false
+    },
+    {
+      "file": "packages/assets_audio_player/lib/src/utils.dart",
+      "upstreamSha256": "c93402262cfb619f10675df98070c561a79b8c1c2696788e9a5eae412a04d8d1",
+      "validatedSha256": "c93402262cfb619f10675df98070c561a79b8c1c2696788e9a5eae412a04d8d1",
+      "preparedSha256": "c93402262cfb619f10675df98070c561a79b8c1c2696788e9a5eae412a04d8d1",
+      "modificationNoticeAdded": false
+    },
+    {
+      "file": "packages/assets_audio_player/lib/src/widget/audio_widget.dart",
+      "upstreamSha256": "e8096caf59a7f2eb49a91c9bcff0c9f3c8e6234871e8d31cd02789b007f4c2ba",
+      "validatedSha256": "e8096caf59a7f2eb49a91c9bcff0c9f3c8e6234871e8d31cd02789b007f4c2ba",
+      "preparedSha256": "e8096caf59a7f2eb49a91c9bcff0c9f3c8e6234871e8d31cd02789b007f4c2ba",
+      "modificationNoticeAdded": false
+    },
+    {
+      "file": "packages/assets_audio_player/LICENSE",
+      "upstreamSha256": "7909c1c500fbbe22417d28a5f0a39fc4039b239526f6ff11b839dadffe4ab6b9",
+      "validatedSha256": "7909c1c500fbbe22417d28a5f0a39fc4039b239526f6ff11b839dadffe4ab6b9",
+      "preparedSha256": "7909c1c500fbbe22417d28a5f0a39fc4039b239526f6ff11b839dadffe4ab6b9",
+      "modificationNoticeAdded": false
+    },
+    {
+      "file": "packages/assets_audio_player/macos/assets_audio_player.podspec",
+      "upstreamSha256": "fcfe089d3271d869d25e3047b90c0329594c676631ebe9e14af9d61c22a496ac",
+      "validatedSha256": "fcfe089d3271d869d25e3047b90c0329594c676631ebe9e14af9d61c22a496ac",
+      "preparedSha256": "fcfe089d3271d869d25e3047b90c0329594c676631ebe9e14af9d61c22a496ac",
+      "modificationNoticeAdded": false
+    },
+    {
+      "file": "packages/assets_audio_player/macos/Classes/AssetsAudioPlayer.swift",
+      "upstreamSha256": "df9f367e5c7afad2bd5e6d3cf92d8a6459e3d2ff59ae919009d859aaf55a0aa4",
+      "validatedSha256": "df9f367e5c7afad2bd5e6d3cf92d8a6459e3d2ff59ae919009d859aaf55a0aa4",
+      "preparedSha256": "df9f367e5c7afad2bd5e6d3cf92d8a6459e3d2ff59ae919009d859aaf55a0aa4",
+      "modificationNoticeAdded": false
+    },
+    {
+      "file": "packages/assets_audio_player/macos/Classes/AssetsAudioPlayerPlugin.swift",
+      "upstreamSha256": "df096794bbdc0a7883421653e145cc794cd8f027296f951f6ac4854199029e76",
+      "validatedSha256": "df096794bbdc0a7883421653e145cc794cd8f027296f951f6ac4854199029e76",
+      "preparedSha256": "df096794bbdc0a7883421653e145cc794cd8f027296f951f6ac4854199029e76",
+      "modificationNoticeAdded": false
+    },
+    {
+      "file": "packages/assets_audio_player/macos/Classes/Music.swift",
+      "upstreamSha256": "ab496c8b96a8778a987ef6737499f4a88db192eeac2b2ff6f9cc0da0e41e083a",
+      "validatedSha256": "ab496c8b96a8778a987ef6737499f4a88db192eeac2b2ff6f9cc0da0e41e083a",
+      "preparedSha256": "ab496c8b96a8778a987ef6737499f4a88db192eeac2b2ff6f9cc0da0e41e083a",
+      "modificationNoticeAdded": false
+    },
+    {
+      "file": "packages/assets_audio_player/medias/audio_widget.gif",
+      "upstreamSha256": "55d904f6a004788e14e3d859f9baf4e41ab8e4356f45b30b70861a29a1031033",
+      "validatedSha256": "55d904f6a004788e14e3d859f9baf4e41ab8e4356f45b30b70861a29a1031033",
+      "preparedSha256": "55d904f6a004788e14e3d859f9baf4e41ab8e4356f45b30b70861a29a1031033",
+      "modificationNoticeAdded": false
+    },
+    {
+      "file": "packages/assets_audio_player/medias/notification_android.png",
+      "upstreamSha256": "69f0bff4985dc81735d0c2d5bad2a0f0583da6f90d8f4235857aabe3f0a13825",
+      "validatedSha256": "69f0bff4985dc81735d0c2d5bad2a0f0583da6f90d8f4235857aabe3f0a13825",
+      "preparedSha256": "69f0bff4985dc81735d0c2d5bad2a0f0583da6f90d8f4235857aabe3f0a13825",
+      "modificationNoticeAdded": false
+    },
+    {
+      "file": "packages/assets_audio_player/medias/notification_iOS.png",
+      "upstreamSha256": "6931ba2ac0847515290594a8f3d1884d97962cf44d34e76cb479d3b7cf054913",
+      "validatedSha256": "6931ba2ac0847515290594a8f3d1884d97962cf44d34e76cb479d3b7cf054913",
+      "preparedSha256": "6931ba2ac0847515290594a8f3d1884d97962cf44d34e76cb479d3b7cf054913",
+      "modificationNoticeAdded": false
+    },
+    {
+      "file": "packages/assets_audio_player/medias/sample1.png",
+      "upstreamSha256": "ea9da876c4b8bd55e1e48415c2f95a6a2d4f5bbfaf003485b7196dc844406a5c",
+      "validatedSha256": "ea9da876c4b8bd55e1e48415c2f95a6a2d4f5bbfaf003485b7196dc844406a5c",
+      "preparedSha256": "ea9da876c4b8bd55e1e48415c2f95a6a2d4f5bbfaf003485b7196dc844406a5c",
+      "modificationNoticeAdded": false
+    },
+    {
+      "file": "packages/assets_audio_player/medias/sample2.png",
+      "upstreamSha256": "4df3a9b68cdcea96bc2a0483c230fc093db913b5ae8293d1c9ac73d78f79e910",
+      "validatedSha256": "4df3a9b68cdcea96bc2a0483c230fc093db913b5ae8293d1c9ac73d78f79e910",
+      "preparedSha256": "4df3a9b68cdcea96bc2a0483c230fc093db913b5ae8293d1c9ac73d78f79e910",
+      "modificationNoticeAdded": false
+    },
+    {
+      "file": "packages/assets_audio_player/publish.sh",
+      "upstreamSha256": "829a2f2617c2d64dafc1996d7cc287e0d63dfd67e730c9ab8306a437e8f1344c",
+      "validatedSha256": "829a2f2617c2d64dafc1996d7cc287e0d63dfd67e730c9ab8306a437e8f1344c",
+      "preparedSha256": "829a2f2617c2d64dafc1996d7cc287e0d63dfd67e730c9ab8306a437e8f1344c",
+      "modificationNoticeAdded": false
+    },
+    {
+      "file": "packages/assets_audio_player/pubspec.yaml",
+      "upstreamSha256": "a7af055f0a890c0bab322662eaf2aaf9020ccc7cb8602347c6a1710cfde346d5",
+      "validatedSha256": "a7af055f0a890c0bab322662eaf2aaf9020ccc7cb8602347c6a1710cfde346d5",
+      "preparedSha256": "a7af055f0a890c0bab322662eaf2aaf9020ccc7cb8602347c6a1710cfde346d5",
+      "modificationNoticeAdded": false
+    },
+    {
+      "file": "packages/assets_audio_player/README.md",
+      "upstreamSha256": "3f7f27819b474c109d96479a37929da691f47023a7e12c143eb9d8c15da17121",
+      "validatedSha256": "3f7f27819b474c109d96479a37929da691f47023a7e12c143eb9d8c15da17121",
+      "preparedSha256": "3f7f27819b474c109d96479a37929da691f47023a7e12c143eb9d8c15da17121",
+      "modificationNoticeAdded": false
+    },
+    {
+      "file": "packages/assets_audio_player/res/values/strings_en.arb",
+      "upstreamSha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "validatedSha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "preparedSha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "modificationNoticeAdded": false
+    },
+    {
+      "file": "packages/assets_audio_player/test/assets_audio_player_test.dart",
+      "upstreamSha256": "2d06ae61b64408e9347c404ff1c059c827d3b22e23bdab9893418729107ee74a",
+      "validatedSha256": "2d06ae61b64408e9347c404ff1c059c827d3b22e23bdab9893418729107ee74a",
+      "preparedSha256": "2d06ae61b64408e9347c404ff1c059c827d3b22e23bdab9893418729107ee74a",
+      "modificationNoticeAdded": false
+    },
+    {
+      "file": "packages/assets_audio_player_web/analysis_options.yaml",
+      "upstreamSha256": "685a358bbebf32a4b1351a6aa72ee7e7f1613e4d810fa5fd4c2b5ade4ea2d2b0",
+      "validatedSha256": "685a358bbebf32a4b1351a6aa72ee7e7f1613e4d810fa5fd4c2b5ade4ea2d2b0",
+      "preparedSha256": "685a358bbebf32a4b1351a6aa72ee7e7f1613e4d810fa5fd4c2b5ade4ea2d2b0",
+      "modificationNoticeAdded": false
+    },
+    {
+      "file": "packages/assets_audio_player_web/android/build.gradle",
+      "upstreamSha256": "9864463262abfed4a48b2963a974253923b1642212d40559ecea1ce273946c94",
+      "validatedSha256": "9864463262abfed4a48b2963a974253923b1642212d40559ecea1ce273946c94",
+      "preparedSha256": "9864463262abfed4a48b2963a974253923b1642212d40559ecea1ce273946c94",
+      "modificationNoticeAdded": false
+    },
+    {
+      "file": "packages/assets_audio_player_web/android/gradle/wrapper/gradle-wrapper.properties",
+      "upstreamSha256": "772d35d2db3e44ac191f4a83f995a39b76bd638d1ba9e421b6f8918ba8d654b0",
+      "validatedSha256": "772d35d2db3e44ac191f4a83f995a39b76bd638d1ba9e421b6f8918ba8d654b0",
+      "preparedSha256": "772d35d2db3e44ac191f4a83f995a39b76bd638d1ba9e421b6f8918ba8d654b0",
+      "modificationNoticeAdded": false
+    },
+    {
+      "file": "packages/assets_audio_player_web/android/gradle.properties",
+      "upstreamSha256": "b1e114bf6dc9c036895d0909014ffc9f6e8fe30cce98c109786f49bb3d29bcf4",
+      "validatedSha256": "b1e114bf6dc9c036895d0909014ffc9f6e8fe30cce98c109786f49bb3d29bcf4",
+      "preparedSha256": "b1e114bf6dc9c036895d0909014ffc9f6e8fe30cce98c109786f49bb3d29bcf4",
+      "modificationNoticeAdded": false
+    },
+    {
+      "file": "packages/assets_audio_player_web/android/settings.gradle",
+      "upstreamSha256": "de074e0304327b00acb255edd8dc5776dadd7ba955dccc52f6b3700a7d8ef738",
+      "validatedSha256": "de074e0304327b00acb255edd8dc5776dadd7ba955dccc52f6b3700a7d8ef738",
+      "preparedSha256": "de074e0304327b00acb255edd8dc5776dadd7ba955dccc52f6b3700a7d8ef738",
+      "modificationNoticeAdded": false
+    },
+    {
+      "file": "packages/assets_audio_player_web/android/src/main/AndroidManifest.xml",
+      "upstreamSha256": "49af40cf7a4dde6db3a503594f8954c375004e6b5b99d9aa6e3044d3ce00aad9",
+      "validatedSha256": "49af40cf7a4dde6db3a503594f8954c375004e6b5b99d9aa6e3044d3ce00aad9",
+      "preparedSha256": "49af40cf7a4dde6db3a503594f8954c375004e6b5b99d9aa6e3044d3ce00aad9",
+      "modificationNoticeAdded": false
+    },
+    {
+      "file": "packages/assets_audio_player_web/android/src/main/kotlin/com/github/florent37/assets_audio_player_web/AssetsAudioPlayerWebPlugin.kt",
+      "upstreamSha256": "c48f55a3227eeb361a94a724acde7052562c4bbe0825f29bda6acc147eb130c7",
+      "validatedSha256": "050ad690647418b9b65a4c89ad6ce524d69b82d91a4cbfae282cc408185d659d",
+      "preparedSha256": "d9418f60792a985effcf995ca26e4295b3552bf1c728ad9707665f81bd568174",
+      "modificationNoticeAdded": true
+    },
+    {
+      "file": "packages/assets_audio_player_web/CHANGELOG.md",
+      "upstreamSha256": "e2286316d701069413d7e9248bcb430866aa37b3ad689ea6435ca728d955f93a",
+      "validatedSha256": "e2286316d701069413d7e9248bcb430866aa37b3ad689ea6435ca728d955f93a",
+      "preparedSha256": "e2286316d701069413d7e9248bcb430866aa37b3ad689ea6435ca728d955f93a",
+      "modificationNoticeAdded": false
+    },
+    {
+      "file": "packages/assets_audio_player_web/ios/assets_audio_player_web.podspec",
+      "upstreamSha256": "15347846e3c881fefed191350d841f56fa3ef6ed6f9771de355d5d12268b6f23",
+      "validatedSha256": "15347846e3c881fefed191350d841f56fa3ef6ed6f9771de355d5d12268b6f23",
+      "preparedSha256": "15347846e3c881fefed191350d841f56fa3ef6ed6f9771de355d5d12268b6f23",
+      "modificationNoticeAdded": false
+    },
+    {
+      "file": "packages/assets_audio_player_web/ios/Classes/AssetsAudioPlayerWebPlugin.h",
+      "upstreamSha256": "ec991c41e10347357a99c01780ad2541ecd3e09559824c6c268698cf17a49aa6",
+      "validatedSha256": "ec991c41e10347357a99c01780ad2541ecd3e09559824c6c268698cf17a49aa6",
+      "preparedSha256": "ec991c41e10347357a99c01780ad2541ecd3e09559824c6c268698cf17a49aa6",
+      "modificationNoticeAdded": false
+    },
+    {
+      "file": "packages/assets_audio_player_web/ios/Classes/AssetsAudioPlayerWebPlugin.m",
+      "upstreamSha256": "ef870b333dd85a91b62a1e7f12908127ee0d5fe42351bf580adad60bd7f8721e",
+      "validatedSha256": "ef870b333dd85a91b62a1e7f12908127ee0d5fe42351bf580adad60bd7f8721e",
+      "preparedSha256": "ef870b333dd85a91b62a1e7f12908127ee0d5fe42351bf580adad60bd7f8721e",
+      "modificationNoticeAdded": false
+    },
+    {
+      "file": "packages/assets_audio_player_web/ios/Classes/SwiftAssetsAudioPlayerWebPlugin.swift",
+      "upstreamSha256": "184f6abb49bee1cc9f72426096c1c48507ca3b3659f5e639149edc68f05ff433",
+      "validatedSha256": "184f6abb49bee1cc9f72426096c1c48507ca3b3659f5e639149edc68f05ff433",
+      "preparedSha256": "184f6abb49bee1cc9f72426096c1c48507ca3b3659f5e639149edc68f05ff433",
+      "modificationNoticeAdded": false
+    },
+    {
+      "file": "packages/assets_audio_player_web/lib/assets_audio_player_web.dart",
+      "upstreamSha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "validatedSha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "preparedSha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "modificationNoticeAdded": false
+    },
+    {
+      "file": "packages/assets_audio_player_web/lib/generated/i18n.dart",
+      "upstreamSha256": "3560b38836a965c16965da50683951ce88b6127eefe11d5841bbca3439da7e67",
+      "validatedSha256": "3560b38836a965c16965da50683951ce88b6127eefe11d5841bbca3439da7e67",
+      "preparedSha256": "3560b38836a965c16965da50683951ce88b6127eefe11d5841bbca3439da7e67",
+      "modificationNoticeAdded": false
+    },
+    {
+      "file": "packages/assets_audio_player_web/lib/web/abstract_web_player.dart",
+      "upstreamSha256": "f84ddceb15c4113ec4d5752c1cd5162f1953f9413c216c556a88622a758057a0",
+      "validatedSha256": "f84ddceb15c4113ec4d5752c1cd5162f1953f9413c216c556a88622a758057a0",
+      "preparedSha256": "f84ddceb15c4113ec4d5752c1cd5162f1953f9413c216c556a88622a758057a0",
+      "modificationNoticeAdded": false
+    },
+    {
+      "file": "packages/assets_audio_player_web/lib/web/assets_audio_player_web.dart",
+      "upstreamSha256": "1f602be3a34bc9da601113a8ecdb30bbd544b12dcdb15a4e91fd74eb0eabbc20",
+      "validatedSha256": "1f602be3a34bc9da601113a8ecdb30bbd544b12dcdb15a4e91fd74eb0eabbc20",
+      "preparedSha256": "1f602be3a34bc9da601113a8ecdb30bbd544b12dcdb15a4e91fd74eb0eabbc20",
+      "modificationNoticeAdded": false
+    },
+    {
+      "file": "packages/assets_audio_player_web/lib/web/web_player_html.dart",
+      "upstreamSha256": "a9213e7a0c8f0eb43fc9250ad61b331965921f4e4352cc307d5cfd863fb6bbe3",
+      "validatedSha256": "a9213e7a0c8f0eb43fc9250ad61b331965921f4e4352cc307d5cfd863fb6bbe3",
+      "preparedSha256": "a9213e7a0c8f0eb43fc9250ad61b331965921f4e4352cc307d5cfd863fb6bbe3",
+      "modificationNoticeAdded": false
+    },
+    {
+      "file": "packages/assets_audio_player_web/LICENSE",
+      "upstreamSha256": "7909c1c500fbbe22417d28a5f0a39fc4039b239526f6ff11b839dadffe4ab6b9",
+      "validatedSha256": "7909c1c500fbbe22417d28a5f0a39fc4039b239526f6ff11b839dadffe4ab6b9",
+      "preparedSha256": "7909c1c500fbbe22417d28a5f0a39fc4039b239526f6ff11b839dadffe4ab6b9",
+      "modificationNoticeAdded": false
+    },
+    {
+      "file": "packages/assets_audio_player_web/macos/assets_audio_player_web.podspec",
+      "upstreamSha256": "2ac6e02468b6a538f1557c0447b5aa1382b3a29be5cc32c04ce6dbd5ee206810",
+      "validatedSha256": "2ac6e02468b6a538f1557c0447b5aa1382b3a29be5cc32c04ce6dbd5ee206810",
+      "preparedSha256": "2ac6e02468b6a538f1557c0447b5aa1382b3a29be5cc32c04ce6dbd5ee206810",
+      "modificationNoticeAdded": false
+    },
+    {
+      "file": "packages/assets_audio_player_web/macos/Classes/AssetsAudioPlayerWebPlugin.swift",
+      "upstreamSha256": "ef59261efb8fcdc60577d5a3bf125793ba6b7c529c8091545c58e902a1e50a93",
+      "validatedSha256": "ef59261efb8fcdc60577d5a3bf125793ba6b7c529c8091545c58e902a1e50a93",
+      "preparedSha256": "ef59261efb8fcdc60577d5a3bf125793ba6b7c529c8091545c58e902a1e50a93",
+      "modificationNoticeAdded": false
+    },
+    {
+      "file": "packages/assets_audio_player_web/publish.sh",
+      "upstreamSha256": "a915e80561e5529790ce8730b26c8c435b2838e7fb23fb2d7e9e8776320e0e58",
+      "validatedSha256": "a915e80561e5529790ce8730b26c8c435b2838e7fb23fb2d7e9e8776320e0e58",
+      "preparedSha256": "a915e80561e5529790ce8730b26c8c435b2838e7fb23fb2d7e9e8776320e0e58",
+      "modificationNoticeAdded": false
+    },
+    {
+      "file": "packages/assets_audio_player_web/pubspec.yaml",
+      "upstreamSha256": "015ac0c9bcd504ef4e33f0f9057a09d495b3d2e651549aeb4b8b317cf9c0be03",
+      "validatedSha256": "015ac0c9bcd504ef4e33f0f9057a09d495b3d2e651549aeb4b8b317cf9c0be03",
+      "preparedSha256": "015ac0c9bcd504ef4e33f0f9057a09d495b3d2e651549aeb4b8b317cf9c0be03",
+      "modificationNoticeAdded": false
+    },
+    {
+      "file": "packages/assets_audio_player_web/README.md",
+      "upstreamSha256": "05f6ffa78eec54c519c9f036d049355e1ae7dc13c1c1dd97b794d99d4fb2365f",
+      "validatedSha256": "05f6ffa78eec54c519c9f036d049355e1ae7dc13c1c1dd97b794d99d4fb2365f",
+      "preparedSha256": "05f6ffa78eec54c519c9f036d049355e1ae7dc13c1c1dd97b794d99d4fb2365f",
+      "modificationNoticeAdded": false
+    },
+    {
+      "file": "packages/assets_audio_player_web/res/values/strings_en.arb",
+      "upstreamSha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "validatedSha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "preparedSha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "modificationNoticeAdded": false
+    },
+    {
+      "file": "packages/assets_audio_player_web/test/assets_audio_player_web_test.dart",
+      "upstreamSha256": "12e3f0ab9f3e6b936c95dcfe87f4f506f6b2e3108281ea220ce1e0360cfe739a",
+      "validatedSha256": "12e3f0ab9f3e6b936c95dcfe87f4f506f6b2e3108281ea220ce1e0360cfe739a",
+      "preparedSha256": "12e3f0ab9f3e6b936c95dcfe87f4f506f6b2e3108281ea220ce1e0360cfe739a",
+      "modificationNoticeAdded": false
+    }
+  ]
+}

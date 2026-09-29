@@ -1,0 +1,23 @@
+
+diff --git a/packages/assets_audio_player/android/src/main/kotlin/com/github/florent37/assets_audio_player/stopwhencall/HeadsetManager.kt b/packages/assets_audio_player/android/src/main/kotlin/com/github/florent37/assets_audio_player/stopwhencall/HeadsetManager.kt
+index f44153f..1536271 100644
+--- a/packages/assets_audio_player/android/src/main/kotlin/com/github/florent37/assets_audio_player/stopwhencall/HeadsetManager.kt
++++ b/packages/assets_audio_player/android/src/main/kotlin/com/github/florent37/assets_audio_player/stopwhencall/HeadsetManager.kt
+@@ -1,3 +1,6 @@
++// Modified from upstream 3.1.1 for modern Flutter/Android compatibility.
++// Change: Handle a nullable requestedPermissions array when checking Bluetooth permission.
++// Public Dart API and playback contract are preserved. See repository NOTICE.
+ package com.github.florent37.assets_audio_player.stopwhencall
+ 
+ import android.bluetooth.BluetoothAdapter
+@@ -90,7 +93,7 @@ class HeadsetManager(private val context: Context) {
+     fun Context.hasPermissionBluetooth() : Boolean {
+         try {
+             val packageInfo = this.packageManager.getPackageInfo(packageName, PackageManager.GET_PERMISSIONS)
+-            return  packageInfo.requestedPermissions.contains("android.permission.BLUETOOTH")
++            return  packageInfo.requestedPermissions?.contains("android.permission.BLUETOOTH") == true
+         } catch (t: Throwable) {
+ 
+         }
+
+

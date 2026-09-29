@@ -1,0 +1,14 @@
+Flutter AssetsAudioPlayer compatibility distribution
+
+Upstream: https://github.com/florent37/Flutter-AssetsAudioPlayer
+Packages: assets_audio_player 3.1.1 and assets_audio_player_web 3.1.1
+Copyright 2019 Florent37
+
+These packages are distributed under the Apache License, Version 2.0.
+The original license and source attribution notices have been retained.
+No separate NOTICE file was present in either verified pub.dev 3.1.1 archive.
+
+This distribution includes three previously validated Android compatibility
+patches, documented in README.md and PATCHES.diff. The modified Kotlin files
+carry explicit change notices. Public Dart APIs and the playback contract
+are preserved; this is not an upstream release or endorsement.
