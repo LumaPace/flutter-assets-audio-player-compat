@@ -12,3 +12,8 @@ This distribution includes three previously validated Android compatibility
 patches, documented in README.md and PATCHES.diff. The modified Kotlin files
 carry explicit change notices. Public Dart APIs and the playback contract
 are preserved; this is not an upstream release or endorsement.
+
+The core pubspec also contains a dependency-resolution compatibility patch:
+the web implementation is resolved from its sibling in the same Git checkout,
+and the UUID constraint accepts the already-compatible major versions 3 and 4.
+Package versions and executable source code are unchanged by this update.

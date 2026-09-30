@@ -21,3 +21,17 @@ index f44153f..1536271 100644
          }
 
 
+
+diff --git a/packages/assets_audio_player/pubspec.yaml b/packages/assets_audio_player/pubspec.yaml
+index f0a6ff6..fb6a2fc 100644
+--- a/packages/assets_audio_player/pubspec.yaml
++++ b/packages/assets_audio_player/pubspec.yaml
+@@ -16 +16,2 @@ dependencies:
+-  uuid: ^3.0.5
++  # Compatibility fork: retain UUID 3 support and accept the UUID 4 API in use.
++  uuid: '>=3.0.5 <5.0.0'
+@@ -26 +27,3 @@ dependencies:
+-  assets_audio_player_web: ^3.0.6
++  # Compatibility fork: resolve the patched sibling from this Git checkout.
++  assets_audio_player_web:
++    path: ../assets_audio_player_web

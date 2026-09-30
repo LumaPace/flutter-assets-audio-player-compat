@@ -498,8 +498,8 @@
       "file": "packages/assets_audio_player/pubspec.yaml",
       "upstreamSha256": "a7af055f0a890c0bab322662eaf2aaf9020ccc7cb8602347c6a1710cfde346d5",
       "validatedSha256": "a7af055f0a890c0bab322662eaf2aaf9020ccc7cb8602347c6a1710cfde346d5",
-      "preparedSha256": "a7af055f0a890c0bab322662eaf2aaf9020ccc7cb8602347c6a1710cfde346d5",
-      "modificationNoticeAdded": false
+      "preparedSha256": "c033f67277870587d6b5e68721b4f684798406a133e1eb7ea50fdc7b1682705a",
+      "modificationNoticeAdded": true
     },
     {
       "file": "packages/assets_audio_player/README.md",

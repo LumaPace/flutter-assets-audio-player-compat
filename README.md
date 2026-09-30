@@ -18,11 +18,13 @@ These patches address compilation with modern Flutter/Android tooling. They do n
 
 ## Git consumption
 
-Use this repository as two Git dependency overrides, each pinned to the **same full commit SHA**. Set package paths to packages/assets_audio_player and packages/assets_audio_player_web. Override both packages so the federated web package does not resolve back to the hosted original. Do not depend on a moving branch or a local path.
+Declare only assets_audio_player as a Git dependency, pinned to a **full commit SHA**, with path packages/assets_audio_player. Its relative sibling dependency resolves assets_audio_player_web from the same Git repository and commit. Pub records both packages as Git sources; no machine-local path or dependency override is needed. Do not depend on a moving branch.
+
+The core package accepts UUID versions >=3.0.5 <5.0.0. This preserves UUID 3 compatibility while allowing consumers that already use UUID 4 to resolve without an override. Only the existing Uuid().v4() API is used; no Dart implementation or package version was changed.
 
 ## Reproduction and verification
 
-UPSTREAM_MANIFEST.json records the official archive checksums and upstream, previously validated and prepared SHA-256 for all 97 package files. PATCHES.diff contains the complete package diff versus the verified upstream archives. Ninety-four files are byte-identical to the validated preparation; the other three differ only by added change-notice comments. All Dart sources and package versions are unchanged.
+UPSTREAM_MANIFEST.json records the official archive checksums and upstream, previously validated and prepared SHA-256 for all 97 package files. PATCHES.diff contains the complete package diff versus the verified upstream archives. All Dart sources and package versions are unchanged. The dependency-only update changes the core pubspec: relative sibling web resolution and the compatible UUID constraint. The previously validated Kotlin patches and license notices remain byte-identical.
 
 The patches were validated using local Flutter audio-contract tests (play/pause/seek, interruption and protected-request handling), static analysis and an Android debug APK build. The consumer tests and logs remain outside this source distribution because they belong to the consuming application. Integration/build tooling was Flutter 3.38.6, Dart 3.10.7, AGP 8.9.1, Kotlin 2.1.0 and Gradle 8.12. This does not claim testing of every device or cloud environment.
 
